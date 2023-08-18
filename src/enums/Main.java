@@ -3,11 +3,8 @@ package enums;
 public class Main {
 
     public static void main(String[] args) {
-	Engine engine = new Engine();
+	Car car = new Car();
 	
-	engine.state = State.ACTIVE;
-	
-	engine.state.doSomething();
+	car.getEngine().getState().accomplishRequest();
     }
-
 }

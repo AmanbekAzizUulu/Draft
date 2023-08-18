@@ -10,12 +10,12 @@ public class Car implements Comparable<Car>{
 	this.yearOfManufacture = yearOfManufacture;
     }
     
-    
     @Override
     public String toString() {
-	return "Car [model = " + model + ", year of manufacture = " + yearOfManufacture + "]";
+	return "Car [model = " + model 
+		+ ", year of manufacture = " 
+		+ yearOfManufacture + "]";
     }
-
 
     public String getModel() {
         return model;

@@ -1,5 +1,5 @@
 package enums;
 
 public interface Activable {
-    public void doSomething();
+    public void accomplishRequest();
 }
